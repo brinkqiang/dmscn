@@ -19,6 +19,9 @@
 #include <iostream>
 #include <string>
 
+// 在 Windows 系统之下：输入 ctrl + z 后按下回车，就代表标准输入流的结束
+// 在 Unix / Linux / MacOS 系统之下：输入 ctrl + D，就表示输入流结束了
+
 int main()
 {
     std::cout << "Hi there! What's your first name?\n";
