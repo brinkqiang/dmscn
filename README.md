@@ -26,8 +26,8 @@ Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
 dmscn
 
 
-// ÔÚ Windows ÏµÍ³Ö®ÏÂ£ºÊäÈë ctrl + z ºó°´ÏÂ»Ø³µ£¬¾Í´ú±í±ê×¼ÊäÈëÁ÷µÄ½áÊø
-// ÔÚ Unix / Linux / MacOS ÏµÍ³Ö®ÏÂ£ºÊäÈë ctrl + D£¬¾Í±íÊ¾ÊäÈëÁ÷½áÊøÁË
+// åœ¨ Windows ç³»ç»Ÿä¹‹ä¸‹ï¼šè¾“å…¥ ctrl + z åæŒ‰ä¸‹å›è½¦ï¼Œå°±ä»£è¡¨æ ‡å‡†è¾“å…¥æµçš„ç»“æŸ
+// åœ¨ Unix / Linux / MacOS ç³»ç»Ÿä¹‹ä¸‹ï¼šè¾“å…¥ ctrl + Dï¼Œå°±è¡¨ç¤ºè¾“å…¥æµç»“æŸäº†
 
 ```cpp
 #include <scn/scn.h>
@@ -45,6 +45,5 @@ int main()
 
 ```
 ## Contacts
-[![Join the chat](https://badges.gitter.im/brinkqiang/dmscn/Lobby.svg)](https://gitter.im/brinkqiang/dmscn)
 
 ## Thanks
