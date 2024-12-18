@@ -1,4 +1,4 @@
-#include <scn/scn.h>
+#include "scn/scn.h"
 
 int main()
 {

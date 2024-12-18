@@ -19,7 +19,7 @@
 #define SCN_FILE_CPP
 #endif
 
-#include <scn/detail/file.h>
+#include "scn/detail/file.h"
 
 #include <cstdio>
 

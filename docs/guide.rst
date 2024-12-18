@@ -585,7 +585,7 @@ These functions are slightly slower compared to their output-parameter equivalen
 
 .. code-block:: cpp
 
-    #include <scn/tuple_return.h>
+    #include "scn/tuple_return.h"
 
     // Way more usable with C++17 structured bindings
     // Can also be used without them

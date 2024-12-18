@@ -1,7 +1,7 @@
 #ifndef SCN_BENCHMARK_H
 #define SCN_BENCHMARK_H
 
-#include <scn/scn.h>
+#include "scn/scn.h"
 
 SCN_CLANG_PUSH
     SCN_CLANG_IGNORE("-Wpadded")

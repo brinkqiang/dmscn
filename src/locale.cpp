@@ -19,7 +19,7 @@
 #define SCN_LOCALE_CPP
 #endif
 
-#include <scn/detail/locale.h>
+#include "scn/detail/locale.h"
 
 #include <cctype>
 #include <cmath>

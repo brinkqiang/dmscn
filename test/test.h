@@ -22,7 +22,7 @@
 #include <string>
 #include <vector>
 
-#include <scn/scn.h>
+#include "scn/scn.h"
 
 #include <doctest/doctest.h>
 

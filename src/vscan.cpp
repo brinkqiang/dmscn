@@ -19,7 +19,7 @@
 #define SCN_VSCAN_CPP
 #endif
 
-#include <scn/detail/vscan.h>
+#include "scn/detail/vscan.h"
 
 namespace scn {
     SCN_BEGIN_NAMESPACE

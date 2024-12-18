@@ -19,7 +19,7 @@
 #define SCN_READER_CPP
 #endif
 
-#include <scn/detail/reader.h>
+#include "scn/detail/reader.h"
 
 #include <cerrno>
 #include <clocale>

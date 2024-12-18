@@ -30,7 +30,7 @@ dmscn
 // 在 Unix / Linux / MacOS 系统之下：输入 ctrl + D，就表示输入流结束了
 
 ```cpp
-#include <scn/scn.h>
+#include "scn/scn.h"
 #include <iostream>
 #include <string>
 

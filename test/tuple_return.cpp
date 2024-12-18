@@ -16,7 +16,7 @@
 //     https://github.com/eliaskosunen/scnlib
 
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include <scn/tuple_return.h>
+#include "scn/tuple_return.h"
 
 #include "test.h"
 
