@@ -18,14 +18,16 @@
 #include <scn/scn.h>
 #include <scn/tuple_return.h>
 #include <iostream>
+#include <regex>
 
 int main()
 {
 #if defined(__cpp_structured_bindings) && __cpp_structured_bindings >= 201606
-    auto [result, str, i] =
-        scn::scan_tuple<std::string, int>("Hello 42", "{} {}");
+    auto [result, proto, url, port] =
+        scn::scan_tuple<std::string, std::string, std::string>("https brinkqiang.top 8080",
+                                                               "{}://{}:{}");
     if (result) {
-        std::cout << "Read " << str << " and " << i << '\n';
+        std::cout << "Read " << proto << "://" << url << ":" << port <<  '\n';
     }
 #else
     std::cout << "Compile with structured bindings support (C++17) for this "
